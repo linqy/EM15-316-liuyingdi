@@ -1,0 +1,21 @@
+20:04:16.523 INFO  - Processing command line option -hwspec F:/Users/Administrator/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+20:11:00.177 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:11:00.277 INFO  - PS initialization will be done as it is not done before. 
+20:11:00.277 INFO  - Running PS initialization.... 
+20:11:00.617 INFO  - ps7_init is completed. 
+20:11:00.717 INFO  - PS Initialization is complete. 
+20:11:36.852 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:11:37.031 INFO  - PS initialization will be done as it is not done before. 
+20:11:37.032 INFO  - Running PS initialization.... 
+20:11:37.172 INFO  - ps7_init is completed. 
+20:11:37.272 INFO  - PS Initialization is complete. 
+20:13:24.807 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:13:48.618 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:14:44.279 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:17:13.379 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+20:17:13.379 ERROR - Timeout occured while waiting to get reply for command "xconnect arm hw  -debugdevice cpunr 1 devicenr 1" 
+20:17:13.381 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
